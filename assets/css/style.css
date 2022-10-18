@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    margin-top: 25px;
+}
+.watchtv h1{
+    font-weight: 800;
+    font-size: 70px;
+}
+.watchtv p{
+    width: 48%;
+    size: 20px;
+    font-weight: 400;
+}
+.watcher{
+
+    background-color:  #1E4681;
+    width: 32%;
+    margin-left: 500px;
+    color: white;
+   
+}
+.week8 h6{
+    font-weight: 800;
+    font-size: 20px;
+}
+.week8 h5{
+    font-size: 15px;
+}
+.hours h6{
+    font-weight: 800;
+    font-size: 20px;
+}
+.hours h5{
+    font-size: 15px;
+}
+.week3 h6{
+    font-weight: 800;
+    font-size: 20px;
+}
+.week3 h5{
+    font-size: 15px;
+}
+.lessontop h1{
+    font-size: 60px;
+}
+.lessonbott h1{
+    color: #1E4681;
+    
+}
+.learn h1{
+    font-size: 60px;
+}
+.learn ul{
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    margin-left: 18px;
+}
+.section3{
+    background-color: #EFEFEF;
+}
+.palexova{
+    width: 55%;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.section4{
+    background-color: #9DC9C8;
+}
+footer img{
+    width: 100%;
+}
+.programmingless img{
+    width: 100%;
+}
+@media(max-width:576px){
+    .watcher{
+        display: none;
+    }
+    .palexova {
+        width: unset;
+   
+    }
+    .palexova h1{
+        display: none;
+    }
+
+}
